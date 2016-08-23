@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <test name="Test Tabs(failed)">
+    <classes>
+      <class name="com.santhi.QADdemo.onlineRegistration.Tabs">
+        <methods>
+          <include name="CheckTextOnTabFour"/>
+          <include name="CheckTextOnTabFive"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.santhi.QADdemo.onlineRegistration.Tabs -->
+    </classes>
+  </test> <!-- Test Tabs(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->
