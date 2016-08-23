@@ -1,15 +1,25 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Suite 1">
- <!--  	<test name="Test Registration Page">
+   <test name="Test Registration Page">
 		<classes>
 			<class name="com.santhi.QADdemo.onlineRegistration.OnlineRegistrationForm"></class>
 		</classes>
-	</test> -->
+	</test>
 	
 	<test name="Test Tabs">
 		<classes>
 			<class name="com.santhi.QADdemo.onlineRegistration.Tabs"></class>
+		</classes>
+	</test>
+     <test name="Test frames">
+		<classes>
+			<class name="com.santhi.QADdemo.onlineRegistration.Frames"></class>
+		</classes>
+	</test>
+<test name="Test Interaction">
+		<classes>
+			<class name="com.santhi.QADdemo.onlineRegistration.DragNDrop"></class>
 		</classes>
 	</test>
 </suite>
